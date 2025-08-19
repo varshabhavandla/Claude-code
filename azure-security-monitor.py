@@ -1,11 +1,11 @@
-azure-security-monitor.py                                                                                                                          │ │
-│ │                                                                                                                                                            │ │
-│ │ #!/usr/bin/env python3                                                                                                                                     │ │
-│ │ """                                                                                                                                                        │ │
-│ │ Azure Security Monitor for Claude Code Integration                                                                                                         │ │
-│ │ Pulls Azure security recommendations and provides automated remediation suggestions.                                                                       │ │
-│ │ """                                                                                                                                                        │ │
-│ │                                                                                                                                                            │ │
+#azure-security-monitor.py                                                                                                                          
+                                                                                                                                                            
+ #!/usr/bin/env python3                                                                                                                                   
+ """                                                                                                                                                    
+│ │ Azure Security Monitor for Claude Code Integration                                                                                                    
+│ │ Pulls Azure security recommendations and provides automated remediation suggestions.                                                                 
+│ │ """                                                                                                                    
+│ │                                        
 │ │ import json                                                                                                                                                │ │
 │ │ import subprocess                                                                                                                                          │ │
 │ │ import sys                                                                                                                                                 │ │
